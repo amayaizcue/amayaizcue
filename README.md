@@ -2,4 +2,4 @@
 
 http://www.amayaizcue.com
 
-https://amayaizcue.github.io/amayaizcue/
+https://amayaizcue.github.io/amayaizcue/web
