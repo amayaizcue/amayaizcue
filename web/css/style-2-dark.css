@@ -159,16 +159,16 @@ button {
     background-image: url(../img/who.jpg);
 }
 
-#when-popup .background-top {
-    background-image: url(../img/when.jpg);
+#what-popup .background-top {
+    background-image: url(../img/what.jpg);
 }
 
 #where-popup .background-top {
     background-image: url(../img/where.jpg);
 }
 
-#why-popup .background-top {
-    background-image: url(../img/why.jpg);
+#how-popup .background-top {
+    background-image: url(../img/how.jpg);
 }
 
 .list-sections {
@@ -247,7 +247,7 @@ button {
         }
 
             .list-sections .item-list:nth-of-type(2)::after {
-                background-image: url(../img/when.jpg);
+                background-image: url(../img/what.jpg);
             }
 
         .list-sections .item-list:nth-of-type(3) {
@@ -263,7 +263,7 @@ button {
         }
 
             .list-sections .item-list:nth-of-type(4)::after {
-                background-image: url(../img/why.jpg);
+                background-image: url(../img/how.jpg);
             }
 
 @media only screen and (min-width:992px) {
@@ -469,7 +469,7 @@ button {
     }
 
 button.opacity-0 {
-	cursor: pointer !important;
+    cursor: pointer !important;
 }
 
 .mfp-close, .scroll-chevron {
@@ -567,7 +567,7 @@ button.opacity-0 {
             color: #333;
             background: #FFF;
         }
-		
+
 #nav-language {
     width: 100%;
     position: fixed;
@@ -1281,8 +1281,8 @@ button.opacity-0 {
             color: #BABABA;
             font-size: .9em;
         }
-		
-		.info-solutions-eu {
+
+.info-solutions-eu {
     background: url(../img/ideia.jpg) center center no-repeat;
     background-size: cover;
     border-right: 1px solid #333;
@@ -1375,7 +1375,7 @@ button.opacity-0 {
         padding: 0;
         width: 100%;
         margin-bottom: 2em;
-		resize:none;
+        resize: none;
     }
 
         #contact-form .form-control::-webkit-input-placeholder {
