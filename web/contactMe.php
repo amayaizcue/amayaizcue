@@ -7,6 +7,6 @@
 
     $mailBody="Name: $sender\nEmail: $senderEmail\n\nMessage:\n $message";
 
-		mail("amaya@amayaizcue.com", $subject, $mailBody, "From: $sender <$senderEmail>");
+		mail("amayaizcue@gmail.com", $subject, $mailBody, "From: $sender <$senderEmail>");
 
     ?>
