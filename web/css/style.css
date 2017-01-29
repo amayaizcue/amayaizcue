@@ -32,6 +32,25 @@ body {
     color: #BABABA;
 }
 
+.menu-columna:hover .menu-columna-oculto, .menu-columna-oculto:hover {
+    height: 150px;
+}
+
+.menu-columna-oculto {
+    overflow:hidden;
+    height: 0px;
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
 /* CSS Mobile */
 
 @media (max-width: 991px) {
