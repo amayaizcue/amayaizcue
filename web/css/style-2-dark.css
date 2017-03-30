@@ -1446,6 +1446,14 @@ button.opacity-0 {
         margin-top: 3em;
     }
 
+<<<<<<< HEAD
+=======
+    img.img-center-about {
+        text-align: center;
+        display: block;
+    }
+
+>>>>>>> c46de1f0106dcda3cf01a48c1bda4c8009d832a2
     .second-block h2 {
         font-size: 4em;
         line-height: 1em;

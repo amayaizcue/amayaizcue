@@ -1,0 +1,72 @@
+/*
+ *  Author: Amaya Izcue Chourraut
+ *  Description: Personal Website and Portfolio
+ *  Date: 2017 
+**/
+
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: Ubuntu, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+}
+
+.verde {
+    color: #C0FF00;
+}
+
+.cursor-mano {
+    cursor: pointer;
+}
+
+.gris {
+    color: #959494;
+}
+
+.menu-columna {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.titulo-columna {
+    font-size: 3em;    
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin: 5px 0;
+}
+
+.subtitulo-columna {
+    color: #BABABA;
+}
+
+.menu-columna:hover .menu-columna-oculto, .menu-columna-oculto:hover {
+    height: 150px;
+}
+
+.menu-columna-oculto {
+    overflow:hidden;
+    height: 0px;
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+/* CSS Mobile */
+
+@media (max-width: 991px) {
+    .titulo-columna {
+        font-size: 2em;
+    }
+
+    .menu-columna {
+        height: 25vh;
+    }
+}
